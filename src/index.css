@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+details[open] summary .text-secondary-500 svg {
+	transform: rotate(180deg);
+}
+
+.custom-navlink {
+	padding-left: 0.5rem;
+	display: block;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	border-radius: 0.375rem;
+	}
+
+	.custom-navlink:hover {
+	color: white;
+	background-color: #2563eb; 
+	}
